@@ -1,0 +1,12 @@
+.container {
+    --width: 90%;    
+    // background-color: red;
+    margin: 0 calc((100% - var(--width)) / 2) 0 calc((100% - var(--width)) / 2);
+    // height: 100px;
+}
+
+@media (width > 1000px) {
+    .container {
+        --width: 900px;
+    }
+}

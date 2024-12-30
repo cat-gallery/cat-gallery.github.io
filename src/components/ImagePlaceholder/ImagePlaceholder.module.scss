@@ -1,0 +1,32 @@
+.card {
+    width: 100%;
+    height: 100%;
+}
+.failedCard {
+    height: 100%;
+    width: 100%;
+    background-color: #29294A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.img {
+    height: 80%;
+}
+.pendingCard {
+    background: linear-gradient(to right, #29294A 30%,#3a2371 40%, #29294A);
+    height: 100%;
+    width: 100%;
+    background-size: 200% 100%;
+    animation: pending 1s linear infinite;
+    border-radius: 15px;
+}
+@keyframes pending {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 200% 0%;
+    }
+}

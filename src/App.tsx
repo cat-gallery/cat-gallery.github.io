@@ -1,26 +1,26 @@
 import Container from "./ui/Container/Container"
 import Header from "./components/Header/Header"
 import Main from "./components/Main/Main"
-import Panel from "./components/Panel"
-import CatIcon from "./components/svg/CatIcon"
 import "./index.scss"
-import ImageGrid from "./ui/ImageGrid/ImageGrid"
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
+import Panels from "./components/Panels/Panels"
+import { StrictMode } from "react"
+
+const queryCLient = new QueryClient();
 
 function App() {
 
     return (
-        <>
+        <StrictMode>
             <Main>
                 <Header />
                 <Container>
-                    <ImageGrid>
-                        {[...Array(20)].map(_ => {
-                            return <Panel />
-                        })}
-                    </ImageGrid>
+                    <QueryClientProvider client={queryCLient}>
+                        <Panels/>
+                    </QueryClientProvider>
                 </Container>
             </Main>
-        </>
+        </StrictMode>
     )
 }
 

@@ -1,15 +1,12 @@
-import { useQuery, useQueryClient } from "@tanstack/react-query"
+import { useQuery } from "@tanstack/react-query"
 import IImageInfo from "../../logic/IImageInfo"
 import ImageGrid from "../../ui/ImageGrid/ImageGrid"
 import Panel from "../Panel/Panel"
-import BASE_URL from "../../logic/BaseURL"
 import { useEffect } from "react"
 import Spinner from "../../ui/Spinner/Spinner"
 import SpinnerWrapper from "../../ui/SpinnerWrapper/SpinnerWrapper"
 
 const Panels = () => {
-
-    const queryClient = useQueryClient();
 
     const { status, data } = useQuery({
         queryKey: ['imagesInfo'],
@@ -30,12 +27,17 @@ const Panels = () => {
             {
                 status === "success"
                     ? (
-                        <ImageGrid>
-                            {data?.slice(1).map(image =>
-                                <Panel key={image.name + Date.now() + Math.random()}
-                                    imageInfo={image} />
-                            )}
-                        </ImageGrid>
+                        <>
+                            <div>
+                                <Panel style={{marginTop: "20px"}} imageStyle={{height: "1000px"}} imageInfo={data[0]}/>
+                            </div>
+                            <ImageGrid>
+                                {data?.slice(1).map(image =>
+                                    <Panel key={image.name + Date.now() + Math.random()}
+                                        imageInfo={image} />
+                                )}
+                            </ImageGrid>
+                        </>
                     )
                     : (
                         <SpinnerWrapper>

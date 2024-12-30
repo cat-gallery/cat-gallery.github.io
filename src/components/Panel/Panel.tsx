@@ -1,16 +1,16 @@
 import classes from "./Panel.module.scss"
-import { ImageCard } from "../svg/ImageCard";
 import IImageInfo from "../../logic/IImageInfo";
-import BASE_URL from "../../logic/BaseURL";
-import { useEffect, useRef, useState } from "react";
+import { CSSProperties, useEffect, useRef, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import ImagePlaceholder from "../ImagePlaceholder/ImagePlaceholder";
 
 interface Props {
     imageInfo: IImageInfo
+    style?: CSSProperties
+    imageStyle?: CSSProperties
 }
 
-const Panel = ({ imageInfo }: Props) => {
+const Panel = ({ imageInfo, style, imageStyle }: Props) => {
 
     const [isFullScreen, setIsFullScreen] = useState(false);
     const imgWrapper = useRef({} as HTMLDivElement);
@@ -47,10 +47,10 @@ const Panel = ({ imageInfo }: Props) => {
     };
 
     return (
-        <div className={classes.panel}>
+        <div style={style} className={classes.panel}>
             {
                 imageInfo != null
-                    ? <img onClick={switchFullScreen} ref={imgRef} className={classes.image} />
+                    ? <img style={imageStyle} onClick={switchFullScreen} ref={imgRef} className={classes.image} />
                     : <ImagePlaceholder status={query.status} />
             }
 

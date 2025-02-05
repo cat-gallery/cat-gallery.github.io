@@ -8,13 +8,12 @@
         "src": "givoe derevo.jpg",
         "name": "Живое дерево",
         "description": "Концепт-арт существа маскирующегося под бревно."
-    }, 
+    },
     {
         "src": "cat.jpg",
         "name": "Кошка",
         "description": "Иконка для сайта"
-    }, 
-
+    },
     {
         "src": "Deka-neka.jpg",
         "name": "Дэка-нэка",
@@ -31,86 +30,78 @@
         "description": "Концепт-арт существ маскирующехся под лесное окружение."
     },
     {
-
-        "src":"dgar ptica.jpg",
-        "name":":Жар птица",
-        "description":"Жар птицав нарисовоная графическими узорами.",
+        "src": "dgar ptica.jpg",
+        "name": ":Жар птица",
+        "description": "Жар птицав нарисовоная графическими узорами."
     },
     {
-        "src":"nochnoi pytishestvenik.jpg",
-        "name":"Ночьной путишествиник",
-        "dscription":"Рисунок выполненый в графитеском стиле, в черна-белых тонах."
+        "src": "nochnoi pytishestvenik.jpg",
+        "name": "Ночьной путишествиник",
+        "dscription": "Рисунок выполненый в графитеском стиле, в черна-белых тонах."
     },
     {
-        "src":"gorod on severe.jpg",
-        "name":"Город на Севере",
-        "description":"Путешествинники отправшиеся в таинствены, падший город."
-    },
-    {   
-        "src":"Ktoto est.jpg",
-        "name":"Здесь ктото есть?",
-        "description":"Любопытство."
+        "src": "gorod on severe.jpg",
+        "name": "Город на Севере",
+        "description": "Путешествинники отправшиеся в таинствены, падший город."
     },
     {
-        "src":"milai Uzymi.jpg",
-        "name":"Милая Изуми",
-        "description":"Работа сделанная в традишке, используя три цвета."
+        "src": "Ktoto est.jpg",
+        "name": "Здесь ктото есть?",
+        "description": "Любопытство."
     },
     {
-        "src":"Magia drakona.jpg",
-        "name":"Магия дракона",
-        "description":"Прототипом даного персонажа была одна из моих фигурок."
-
+        "src": "milai Uzymi.jpeg",
+        "name": "Милая Изуми",
+        "description": "Работа сделанная в традишке, используя три цвета."
     },
     {
-        "src":"stihia wetra.jpg",
-        "name":"Стихия ветра",
-        "description":"Прототипом даного персонажа была одна из моих фигурок."
+        "src": "Magia drakona.jpg",
+        "name": "Магия дракона",
+        "description": "Прототипом даного персонажа была одна из моих фигурок."
     },
     {
-        "src":"Dr.Striga.jpg",
-        "name":"Доктор Стрига",
-        "description":"Фан-арт по игру (Awaria)."
+        "src": "stihia wetra.jpg",
+        "name": "Стихия ветра",
+        "description": "Прототипом даного персонажа была одна из моих фигурок."
     },
     {
-        "src":"In chem delo gospadin?.jpg",
-        "name":"-Чем могу помоч вам госпадин?.jpg",
-        "description":"Концепт моли-слуги из ледянового королевства."
-
+        "src": "Dr.Striga.jpg",
+        "name": "Доктор Стрига",
+        "description": "Фан-арт по игру (Awaria)."
     },
     {
-        "src":"mnogoskatnik.jpg",
-        "name":"Многоскатник",
-        "description":"Концепт-арт ездового существа похожего на многоношку."
-
+        "src": "In chem delo gospadin.jpg",
+        "name": "-Чем могу помоч вам госпадин?.jpg",
+        "description": "Концепт моли-слуги из ледянового королевства."
     },
     {
-        "src":"nin sols Ji.jpg",
-        "name":"JI",
-        "description":"Фан-арт по игре (Nine Sols)."
-
+        "src": "mnogoskatnik.jpg",
+        "name": "Многоскатник",
+        "description": "Концепт-арт ездового существа похожего на многоношку."
     },
     {
-        "src":"nin sols Yi.jpg",
-        "name":"YI",
-        "description":"Фан-арт по игре (Nine Sols)."
-
+        "src": "nin sols Ji.jpg",
+        "name": "JI",
+        "description": "Фан-арт по игре (Nine Sols)."
     },
     {
-        "src":"Renys.jpg",
-        "name":"Рэйнес",
-        "description":"Великий маг куклоаод и высокомерный павлин."
-
+        "src": "nin sols Yi.jpg",
+        "name": "YI",
+        "description": "Фан-арт по игре (Nine Sols)."
     },
     {
-        "src":"Sira.jpg",
-        "name":"Сира",
-        "description":"Великий маг оберегащая призраков.",
-
+        "src": "Renys.jpg",
+        "name": "Рэйнес",
+        "description": "Великий маг куклоаод и высокомерный павлин."
     },
     {
-        "src":"spi koshka.jpg",
-        "name":"Спи кошка",
-        "description":"Рисунок на основе фотографии."
+        "src": "Sira.jpg",
+        "name": "Сира",
+        "description": "Великий маг оберегащая призраков."
+    },
+    {
+        "src": "spi koshka.jpg",
+        "name": "Спи кошка",
+        "description": "Рисунок на основе фотографии."
     }
 ]

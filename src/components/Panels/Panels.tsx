@@ -29,7 +29,7 @@ const Panels = () => {
                     ? (
                         <>
                             <div>
-                                <Panel style={{marginTop: "20px"}} imageStyle={{height: "1000px"}} imageInfo={data[0]}/>
+                                <Panel style={{ marginTop: "20px" }} imageStyle={{ maxHeight: "1000px", objectFit: "contain" }} imageInfo={data[0]} />
                             </div>
                             <ImageGrid>
                                 {data?.slice(1).map(image =>

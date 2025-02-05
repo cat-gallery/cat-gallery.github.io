@@ -7,7 +7,7 @@ import ImagePlaceholder from "../ImagePlaceholder/ImagePlaceholder";
 interface Props {
     imageInfo: IImageInfo
     style?: CSSProperties
-    imageStyle?: CSSProperties
+    imageStyle?: CSSProperties,
 }
 
 const Panel = ({ imageInfo, style, imageStyle }: Props) => {
@@ -50,12 +50,20 @@ const Panel = ({ imageInfo, style, imageStyle }: Props) => {
         <div style={style} className={classes.panel}>
             {
                 imageInfo != null
-                    ? <img style={imageStyle} onClick={switchFullScreen} ref={imgRef} className={classes.image} />
+                    ? <img style={{...imageStyle}} onClick={switchFullScreen} ref={imgRef} className={classes.image} />
                     : <ImagePlaceholder status={query.status} />
             }
 
             <div ref={imgWrapper} onClick={switchFullScreen} className={classes.popup}>
                 <img ref={fullImgRef} />
+                <div>
+                    <h2>
+                        {imageInfo.name}
+                    </h2>
+                    <p>
+                        {imageInfo.description}
+                    </p>
+                </div>
             </div>
 
 

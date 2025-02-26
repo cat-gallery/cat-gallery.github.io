@@ -5,30 +5,21 @@
         "description": "Начальная картинка для сайта с волшебной кошкой."
     },
     {
-        "src": "givoe derevo.jpg",
-        "name": "Живое дерево",
-        "description": "Концепт-арт существа, маскирующегося под бревно."
-    }, 
+        "src":"spi koshka.jpg",
+        "name":"Спи, кошка",
+        "description":"Рисунок на основе фотографии."
+    },
     {
-        "src": "cat.jpg",
-        "name": "Кошка",
-        "description": "Иконка для сайта"
-    }, 
+        "src":"nin sols Yi.jpg",
+        "name":"YI",
+        "description":"Фан-арт по игре (Nine Sols)."
 
-    {
-        "src": "Deka-neka.jpg",
-        "name": "Дэка-нэка",
-        "description": "Присоединяйся к нам."
     },
     {
-        "src": "poznanie-volshebstva.jpg",
-        "name": "Познание волшебства",
-        "description": "Молодой волшебник раскрывает свои силы."
-    },
-    {
-        "src": "hroniri lesa.jpg",
-        "name": "Хроники леса",
-        "description": "Концепт-арт существ, маскирующихся под лесное окружение."
+        "src":"nin sols Ji.jpg",
+        "name":"JI",
+        "description":"Фан-арт по игре (Nine Sols)."
+
     },
     {
 
@@ -57,20 +48,37 @@
         "description":"Девочка с кошкой (в три цвета)."
     },
     {
+        "src":"stihia wetra.jpg",
+        "name":"Стихия ветра",
+        "description":"Прототипом данного персонажа была одна из моих фигурок."
+    },
+    {
         "src":"Magia drakona.jpg",
         "name":"Магия дракона",
         "description":"Прототипом данного персонажа была одна из моих фигурок."
 
     },
     {
-        "src":"stihia wetra.jpg",
-        "name":"Стихия ветра",
-        "description":"Прототипом данного персонажа была одна из моих фигурок."
+        "src": "Deka-neka.jpg",
+        "name": "Дэка-нэка",
+        "description": "Присоединяйся к нам."
     },
     {
-        "src":"Dr.Striga.jpg",
-        "name":"Доктор Стрига",
-        "description":"Фан-арт по игре (Awaria)."
+        "src":"Renys.jpg",
+        "name":"Рэйнес",
+        "description":"Великий маг-кукловод и высокомерный павлин."
+
+    },
+    {
+        "src": "poznanie-volshebstva.jpg",
+        "name": "Познание волшебства",
+        "description": "Молодой волшебник раскрывает свои силы."
+    },
+    {
+        "src":"Sira.jpg",
+        "name":"Сира",
+        "description":"Маг, оберегавшая призраков."
+
     },
     {
         "src":"In chem delo gospadin.jpg",
@@ -85,32 +93,19 @@
 
     },
     {
-        "src":"nin sols Ji.jpg",
-        "name":"JI",
-        "description":"Фан-арт по игре (Nine Sols)."
-
+        "src": "hroniri lesa.jpg",
+        "name": "Хроники леса",
+        "description": "Концепт-арт существ, маскирующихся под лесное окружение."
     },
     {
-        "src":"nin sols Yi.jpg",
-        "name":"YI",
-        "description":"Фан-арт по игре (Nine Sols)."
-
+        "src": "givoe derevo.jpg",
+        "name": "Живое дерево",
+        "description": "Концепт-арт существа, маскирующегося под бревно."
     },
     {
-        "src":"Renys.jpg",
-        "name":"Рэйнес",
-        "description":"Великий маг-кукловод и высокомерный павлин."
-
+        "src":"Dr.Striga.jpg",
+        "name":"Доктор Стрига",
+        "description":"Фан-арт по игре (Awaria)."
     },
-    {
-        "src":"Sira.jpg",
-        "name":"Сира",
-        "description":"Маг, оберегавшая призраков."
-
-    },
-    {
-        "src":"spi koshka.jpg",
-        "name":"Спи, кошка",
-        "description":"Рисунок на основе фотографии."
-    }
+        
 ]
